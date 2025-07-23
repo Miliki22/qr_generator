@@ -69,7 +69,7 @@ if st.button("Generar código QR") and url:
     with open(filename, "rb") as f:
         image_data = f.read()
         st.download_button(
-            label="📥 Descargar QR",
+            label="Descargar QR",
             data=image_data,
             file_name="qr_generado.png",
             mime="image/png"
