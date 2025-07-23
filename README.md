@@ -20,7 +20,7 @@ que permite generar códigos QR personalizados con colores y descargarlos en seg
 - Python 3.9 o superior
 - Librerías:
 
-```bash
+bash
 pip install -r requirements.txt
 
 ## 📁 Estructura del proyecto
